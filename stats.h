@@ -9,32 +9,100 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h 
+ * @brief this file is responsible for holding all the headers of the functions and their descreption 
  *
- * <Add Extended Description Here>
+ * User can refer to this file to help understand which tasks different functions will perform, as fuctions used in stats.c are defined here
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Shashwat Shashank
+ * @date Feb 16, 2022
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+/*int print_statistics(int array[]) */ 
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief <print min, max, mean, median>
  *
- * <Add Extended Description Here>
+ * <this function will output the min, max, median of the terms in the array>
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
+ * @param <array[]> <this is the array in question>
+ * @return <output will the calculated statistics>
  */
 
+/*int print_array(int array[]) */ 
 
+/**
+ * @brief <simply print out the same array>
+ *
+ * <it will print the array which user has put as input>
+ *
+ * @param <array[]><it is the array which the user put in>
+ *
+ * @return <output will the same array>
+ */
+
+/*int find_median(int array[]) */ 
+
+/**
+ * @brief <find median value from the array>
+ *
+ * <function will print the median after some mathematical calculation>
+ *
+ * @param <array[]><it is the array which user has input>
+ *
+ * @return <output will be the median value>
+ */
+
+/* int find_meani(int array[])*/ 
+
+/**
+ * @brief <mean value of numbers in the array>
+ *
+ * <finding the mean value of the numbers in the array>
+ *
+ * @param <array[]> <user input array>
+ *
+ * @return <output is the mean of the numbers in the array>
+ */
+
+/*int maximum(int array[])*/ 
+
+/**
+ * @brief <find maximum number in the array>
+ *
+ * <finding the maximum number in the array>
+ *
+ * @param <array[]> <user input array>
+ *
+ * @return <output is maximum of all numbers>
+ */
+
+/*int minimum(int array[]) */ 
+
+/**
+ * @brief <find minimum value>
+ *
+ * <search for minimum number in the array>
+ *
+ * @param <array[]> <user input array>
+ * @param <l> <length of array>
+ *
+ * @return <minimum number of array is displayed>
+ */
+
+/*int sort_array(int array[], int l) */ 
+
+/**
+ * @brief <sort the array>
+ *
+ * <sorting from minimum to maximum>
+ *
+ * @param <array[]> <user input array>
+ * @param <l> <length of array>
+ *
+ * @return <output is a sorted array>
+ */
 #endif /* __STATS_H__ */
